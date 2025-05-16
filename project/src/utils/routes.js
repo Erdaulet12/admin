@@ -1,4 +1,5 @@
-import Dashboard from "../pages/dashboard";
+import EditProduct from "../components/Products/EditProject";
+import Dashboard from "../pages/Dashboard";
 import Products from "../pages/Products";
 import {
   DASHBOARD,
@@ -20,5 +21,17 @@ export const routes = [
   {
     path: PRODUCTS,
     element: Products,
+  },
+  {
+    path: PRODUCTS_CREATE,
+    element: productsCreate,
+  },
+  {
+    path: PRODUCTS_DELETE,
+    element: productsDelete,
+  },
+  {
+    path: PRODUCTS_UPDATE,
+    element: EditProduct,
   },
 ];

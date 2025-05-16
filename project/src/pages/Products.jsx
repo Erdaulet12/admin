@@ -1,4 +1,5 @@
 import ProductList from "../components/Products/ProductList";
+import { PRODUCTS_CREATE } from "../utils/consts";
 
 function Products() {
   return (
@@ -6,7 +7,9 @@ function Products() {
       <div class="container">
         <div class="block-header">
           <h1 class="title">Товары</h1>
-          <span class="btn bg-primary">Создать</span>
+          <Link to={PRODUCTS_CREATE} class="btn bg-primary">
+            Создать
+          </Link>
         </div>
         <ProductList />
       </div>

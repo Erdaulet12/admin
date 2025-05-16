@@ -1,4 +1,4 @@
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import AppRouter from "./components/AppRouter";
 import Sidebar from "./components/Sidebar";
 import "./assets/css/style.css";
