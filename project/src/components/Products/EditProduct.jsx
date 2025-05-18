@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { PRODUCTS } from "../../utils/consts";
+
 function EditProduct() {
   return (
     <section class="block">

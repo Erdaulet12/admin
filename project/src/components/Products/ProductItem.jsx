@@ -5,11 +5,11 @@ import {
   PRODUCTS_DELETE,
 } from "../../utils/consts";
 
-function ProductItem() {
+function ProductItem({ product }) {
   return (
     <tr>
-      <td>id</td>
-      <td>name</td>
+      <td>{product.id}</td>
+      <td>{product.name}</td>
       <td colspan="3" class="actions-products" style={{ border: "none" }}>
         <Link to={PRODUCTS_DETAIL} class="btn bg-success">
           Смотреть
