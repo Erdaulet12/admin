@@ -1,3 +1,5 @@
+import CreateProduct from "../components/Products/CreateProduct";
+import DeleteProduct from "../components/Products/DeleteProduct";
 import EditProduct from "../components/Products/EditProject";
 import Dashboard from "../pages/Dashboard";
 import Products from "../pages/Products";
@@ -24,11 +26,11 @@ export const routes = [
   },
   {
     path: PRODUCTS_CREATE,
-    element: productsCreate,
+    element: CreateProduct,
   },
   {
     path: PRODUCTS_DELETE,
-    element: productsDelete,
+    element: DeleteProduct,
   },
   {
     path: PRODUCTS_UPDATE,
