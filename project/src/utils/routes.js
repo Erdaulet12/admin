@@ -1,7 +1,8 @@
 import CreateProduct from "../components/Products/CreateProduct";
 import DeleteProduct from "../components/Products/DeleteProduct";
-import EditProduct from "../components/Products/EditProject";
+import EditProduct from "../components/Products/EditProduct";
 import Dashboard from "../pages/Dashboard";
+import Orders from "../pages/Orders/Orders";
 import Products from "../pages/Products";
 import {
   DASHBOARD,
@@ -35,5 +36,9 @@ export const routes = [
   {
     path: PRODUCTS_UPDATE,
     element: EditProduct,
+  },
+  {
+    path: ORDERS,
+    element: Orders,
   },
 ];
